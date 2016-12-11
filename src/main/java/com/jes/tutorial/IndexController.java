@@ -14,4 +14,9 @@ public class IndexController {
         ModelAndView mav = new ModelAndView("/WEB-INF/views/index.jsp");
         return mav;
     }
+
+    @RequestMapping({"/index2"})
+    public String index2() {
+        return "/WEB-INF/Index2.html";
+    }
 }
