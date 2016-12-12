@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : SpringMVC_Gradle_Tutorial : SpringMVC_Gradle_Tutorial-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringMVC_Gradle_Tutorial</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="SpringMVC_Gradle_Tutorial-1.0-SNAPSHOT.war">
+      <element id="javaee-facet-resources" facet="SpringMVC_Gradle_Tutorial_main/web/Web Gradle : SpringMVC_Gradle_Tutorial-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringMVC_Gradle_Tutorial_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2" />
+          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.1" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.1" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.1.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: aopalliance:aopalliance:1.0" />
+          <element id="file-copy" path="/usr/local/Cellar/gradle/2.12/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.1/c04eb2cc599cd1742889bfa7cc41878db0d152f5/jackson-databind-2.8.1.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/SpringMVC_Gradle_Tutorial/exploded/SpringMVC_Gradle_Tutorial-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
