@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import KanbanBoard from './KanbanBoard';
+import ReactDom from 'react-dom';
+import KanbanBoardContainer from './KanbanBoardContainer';
 
 let cardsList = [
     {
@@ -37,4 +38,4 @@ let cardsList = [
     }
 ];
 
-React.render(<KanbanBoard cards = {cardsList}/>, document.getElementById('root'));
+ReactDom.render(<KanbanBoardContainer />, document.getElementById('root'));
