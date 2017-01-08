@@ -3,7 +3,11 @@ import React, {Component} from 'react';
 class FocusText extends Component {
     handleClick() {
         console.log("asdf");
-        this.refs.myTextInput.focus();
+        // this.refs.myTextInput.focus();
+        // this.refs.myTextInput.getDOMNode().focus();
+        this.refs.myTextInput.findDOMNode().focus();
+
+
     }
     
     render() {
