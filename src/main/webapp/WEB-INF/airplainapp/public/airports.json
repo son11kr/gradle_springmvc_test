@@ -1,0 +1,14 @@
+[
+  { "code": "ATL", "city": "Atlanta GA", "counrtry": "US"},
+  { "code": "LHR", "city": "London", "counrtry": "GB"},
+  { "code": "JFK", "city": "New York NY", "counrtry": "US"},
+  { "code": "ORD", "city": "Chicago IL", "counrtry": "US"},
+  { "code": "HND", "city": "Tokyo", "counrtry": "JP"},
+  { "code": "LAX", "city": "Los Angeles CA", "counrtry": "US"},
+  { "code": "CDG", "city": "Paris", "counrtry": "FR"},
+  { "code": "RFA", "city": "Frankfrut", "counrtry": "DE"},
+  { "code": "MAD", "city": "Madrid", "counrtry": "ES"},
+  { "code": "SFO", "city": "San Francisco CA", "counrtry": "US"},
+  { "code": "GRU", "city": "S o Paulo", "counrtry": "BR"},
+  { "code": "DME", "city": "Moscow", "counrtry": "US"}
+]

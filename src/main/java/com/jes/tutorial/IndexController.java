@@ -19,4 +19,6 @@ public class IndexController {
     public String index2() {
         return "/WEB-INF/Index2.html";
     }
+
+
 }
